@@ -4,7 +4,7 @@
   name: Правила сервера
   priority: 0
   ruleEntry: true
-  text: "/ServerInfo/Corvax/Guidebook/ServerRules/MrpRuleset.xml"
+  text: "/ServerInfo/Guidebook/_Forge/ServerRules/MrpRuleset.xml"
   children:
   - CorvaxRule0
   - CorvaxRule1
