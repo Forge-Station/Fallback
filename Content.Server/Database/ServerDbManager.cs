@@ -1157,7 +1157,11 @@ namespace Content.Server.Database
 
             _sawmill.Debug($"Using Postgres \"{host}:{port}/{db}\"");
 
-            builder.UseNpgsql(connectionString);
+            builder.UseNpgsql(connectionString, npgsqlOptions =>
+            {
+                npgsqlOptions.CommandTimeout(300);
+            });
+
             SetupLogging(builder);
             return (builder.Options, connectionString);
         }
