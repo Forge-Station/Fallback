@@ -26,19 +26,25 @@ namespace Content.Shared.Localizations
 
         public void Initialize()
         {
+            // Corvax-Localization-Start
             var culture = new CultureInfo(Culture);
-            var fallbackCulture = new CultureInfo(FallbackCulture); // Corvax-Localization
+            var fallbackCulture = new CultureInfo(FallbackCulture);
 
             _loc.LoadCulture(culture);
-            _loc.LoadCulture(fallbackCulture); // Corvax-Localization
+            _loc.LoadCulture(fallbackCulture);
 
             RegisterCommonFunctions(culture);
             RegisterCommonFunctions(fallbackCulture);
 
 
             _loc.AddFunction(fallbackCulture, "MAKEPLURAL", FormatMakePlural);
+
+            _loc.SetCulture(culture);
+            _loc.SetFallbackCluture(fallbackCulture);
+            // Corvax-Localization-End
         }
 
+        // Corvax-Localization-Start
         private void RegisterCommonFunctions(CultureInfo culture)
         {
             _loc.AddFunction(culture, "MANY", FormatMany);
@@ -53,6 +59,7 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
         }
+        // Corvax-Localization-End
 
 
         private ILocValue FormatMany(LocArgs args)
