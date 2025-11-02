@@ -31,12 +31,20 @@ namespace Content.Shared.Localizations
 
             _loc.LoadCulture(culture);
             _loc.LoadCulture(fallbackCulture); // Corvax-Localization
-            _loc.SetFallbackCluture(fallbackCulture); // Corvax-Localization
-            _loc.AddFunction(culture, "MANY", FormatMany); // Corvax-Localization: To prevent problems in auto-generated locale files
+
+            RegisterCommonFunctions(culture);
+            RegisterCommonFunctions(fallbackCulture);
+
+
+            _loc.AddFunction(fallbackCulture, "MAKEPLURAL", FormatMakePlural);
+        }
+
+        private void RegisterCommonFunctions(CultureInfo culture)
+        {
+            _loc.AddFunction(culture, "MANY", FormatMany);
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
-            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
             _loc.AddFunction(culture, "ENERGYWATTHOURS", FormatEnergyWattHours);
             _loc.AddFunction(culture, "UNITS", FormatUnits);
             _loc.AddFunction(culture, "TOSTRING", args => FormatToString(culture, args));
@@ -44,32 +52,8 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
-
-            // Corvax-Localization-Start
-            _loc.AddFunction(fallbackCulture, "PRESSURE", FormatPressure);
-            _loc.AddFunction(fallbackCulture, "POWERWATTS", FormatPowerWatts);
-            _loc.AddFunction(fallbackCulture, "POWERJOULES", FormatPowerJoules);
-            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
-            _loc.AddFunction(fallbackCulture, "ENERGYWATTHOURS", FormatEnergyWattHours);
-            _loc.AddFunction(fallbackCulture, "UNITS", FormatUnits);
-            _loc.AddFunction(fallbackCulture, "TOSTRING", args => FormatToString(culture, args));
-            _loc.AddFunction(fallbackCulture, "LOC", FormatLoc);
-            _loc.AddFunction(fallbackCulture, "NATURALFIXED", FormatNaturalFixed);
-            _loc.AddFunction(fallbackCulture, "NATURALPERCENT", FormatNaturalPercent);
-            _loc.AddFunction(fallbackCulture, "PLAYTIME", FormatPlaytime);
-            // Corvax-Localization-End
-
-
-            /*
-             * The following language functions are specific to the english localization. When working on your own
-             * localization you should NOT modify these, instead add new functions specific to your language/culture.
-             * This ensures the english translations continue to work as expected when fallbacks are needed.
-             */
-            var cultureEn = new CultureInfo("en-US");
-
-            _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
-            _loc.AddFunction(cultureEn, "MANY", FormatMany);
         }
+
 
         private ILocValue FormatMany(LocArgs args)
         {
