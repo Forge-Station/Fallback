@@ -45,6 +45,20 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
 
+            // Corvax-Localization-Start
+            _loc.AddFunction(fallbackCulture, "PRESSURE", FormatPressure);
+            _loc.AddFunction(fallbackCulture, "POWERWATTS", FormatPowerWatts);
+            _loc.AddFunction(fallbackCulture, "POWERJOULES", FormatPowerJoules);
+            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
+            _loc.AddFunction(fallbackCulture, "ENERGYWATTHOURS", FormatEnergyWattHours);
+            _loc.AddFunction(fallbackCulture, "UNITS", FormatUnits);
+            _loc.AddFunction(fallbackCulture, "TOSTRING", args => FormatToString(culture, args));
+            _loc.AddFunction(fallbackCulture, "LOC", FormatLoc);
+            _loc.AddFunction(fallbackCulture, "NATURALFIXED", FormatNaturalFixed);
+            _loc.AddFunction(fallbackCulture, "NATURALPERCENT", FormatNaturalPercent);
+            _loc.AddFunction(fallbackCulture, "PLAYTIME", FormatPlaytime);
+            // Corvax-Localization-End
+
 
             /*
              * The following language functions are specific to the english localization. When working on your own
