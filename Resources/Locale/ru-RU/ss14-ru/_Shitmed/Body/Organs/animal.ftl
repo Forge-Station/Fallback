@@ -1,0 +1,16 @@
+ent-OrganAnimalBrain = мозг животного
+    .desc = Источник, бесполезного интеллекта. Не хонк.
+ent-OrganAnimalEyes = глаза животного
+    .desc = Я вижу тебя!
+ent-OrganSpaceAnimalLungs = легкие космического животного
+    .desc = { ent-OrganAnimalLungs.desc }
+ent-OrganSpaceAnimalHeart = сердце космического животного
+    .desc = { ent-OrganAnimalHeart.desc }
+ent-OrganGoliathHeart = сердце голиафа
+    .desc = { ent-OrganAnimalHeart.desc }
+ent-OrganDragonLungs = драконьи легкие
+    .desc = { ent-OrganAnimalLungs.desc }
+ent-OrganLaserEyes = лазерные глаза раптора
+    .desc = { ent-OrganHumanEyes.desc }
+ent-OrganCobraHeart = железа кобры
+    .desc = { ent-OrganAnimalHeart.desc }

@@ -1,0 +1,13 @@
+ent-PaperWrittenNoteFromMumGeneric = записка от мамы
+    .desc = { ent-Paper.desc }
+    .suffix = Ланчбокс, Обычный
+ent-PaperWrittenNoteFromMumHealthy = записка от мамы
+    .desc = { ent-PaperWrittenNoteFromMumGeneric.desc }
+    .suffix = Ланчбокс, Здоровый
+ent-PaperWrittenNoteFromMumUnhealthy = записка от мамы
+    .desc = { ent-PaperWrittenNoteFromMumGeneric.desc }
+    .suffix = Ланчбокс, Вредный
+ent-PaperWrittenSubscriptionNotice = уведомление о подписке
+    .desc = Спасибо за вашу покупку
+ent-PaperSalvageGunSafeNotice = уведомление о сейфе из утилизации
+    .desc = { ent-Paper.desc }

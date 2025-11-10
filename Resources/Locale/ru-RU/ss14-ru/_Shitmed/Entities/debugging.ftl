@@ -1,0 +1,12 @@
+ent-MeleeDebugSever = бах отсекатель
+    .desc = отсечёт ваши части через неделю
+    .suffix = DEBUG
+ent-MeleeDebugSever100 = бах отсекатель 100урона
+    .desc = { ent-MeleeDebugSever.desc }
+ent-MeleeDebugSever200 = бах отсекатель 200урона
+    .desc = { ent-MeleeDebugSever.desc }
+ent-MeleeDebugBurner = бах жигалка
+    .desc = сожжёт ваши части
+    .suffix = DEBUG
+ent-MeleeDebugBurner200 = бах жигалка 200урона
+    .desc = { ent-MeleeDebugBurner.desc }

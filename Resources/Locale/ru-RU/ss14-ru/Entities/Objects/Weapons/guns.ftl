@@ -1,0 +1,16 @@
+ent-WeaponFlareGun = сигнальный пистолет
+    .desc = Компактный, однозарядный пистолет стреляющий ружейными патронами. Имеет предохранитель, не позволяющий поместить внутрь смертоносные снаряды.
+ent-WeaponFlareGunSecurity = сигнальное ружьё
+    .desc = Модифицированный сигнальный пистолет, изначально предназначенный для использования службой безопасности для запуска нелетальных ружейных снарядов. Однако он также может без риска стрелять и летальными снарядами.
+ent-WeaponImprovisedPneumaticCannon = импровизированная пневматическая пушка
+    .desc = Сделана из трубы, кабельных стяжек и пневматической пушки. Не принимает баллоны без достаточного количества газа.
+ent-LauncherCreamPie = пирогомёт
+    .desc = Для оптимального результата заряжать кремовыми пирогами.
+ent-LauncherSyringe = шприцемёт
+    .desc = Заряжайте отравленными шприцами для оптимального веселья.
+ent-WeaponImprovisedPneumaticCannonGun = { ent-WeaponImprovisedPneumaticCannon }
+    .desc = { ent-WeaponImprovisedPneumaticCannon.desc }
+    .suffix = Оружие
+ent-WeaponImprovisedPneumaticCannonAdmeme = { ent-WeaponImprovisedPneumaticCannonGun }
+    .desc = { ent-WeaponImprovisedPneumaticCannonGun.desc }
+    .suffix = Адмемы

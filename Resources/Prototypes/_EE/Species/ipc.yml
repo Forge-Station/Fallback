@@ -13,7 +13,8 @@
   youngAge: 50
   maleFirstNames: IpcFirst
   femaleFirstNames: IpcFirst
-  lastNames: IpcLast
+  maleLastNames: NamesIpcLast # Corvax-LastnameGender
+  femaleLastNames: NamesIpcLast # Corvax-LastnameGender
   naming: FirstDashLast
   sexes:
   - Unsexed

@@ -1,0 +1,6 @@
+command-description-deletechatmessage-id = Удалить конкретное сообщение чата по ID сообщения
+command-description-nukechatmessages-usernames = Удалить все сообщения чата указанных имён пользователей, опубликованные в этом раунде
+command-description-nukechatmessages-userids = Удалить все сообщения чата указанных ID пользователей, опубликованные в этом раунде
+command-error-deletechatmessage-id-notexist = Сообщение с указанным ID не существует
+command-error-nukechatmessages-usernames-usernamenotexist = Имя пользователя {$username} не существует
+command-error-nukechatmessages-usernames-usernamenomessages = У пользователя {$userId} нет сообщений для удаления

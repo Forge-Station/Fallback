@@ -1,0 +1,14 @@
+ent-SalvageLorePaperGamingSpawner = спавнер бумаги утиля с историей об играх
+    .desc = { ent-MarkerBase.desc }
+ent-PaperWrittenSalvageLoreGaming1 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+    .suffix = Утилизация: Лор: Игры 1
+ent-PaperWrittenSalvageLoreGaming2 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+    .suffix = Утилизация: Лор: Игры 2
+ent-PaperWrittenSalvageLoreGaming3 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+    .suffix = Утилизация: Лор: Игры 3
+ent-PaperWrittenSalvageLoreGaming4 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+    .suffix = Утилизация: Лор: Игры 4

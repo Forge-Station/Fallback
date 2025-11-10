@@ -1,0 +1,12 @@
+ent-EncryptionKeyTraffic = ключ шифрования управления движением
+    .desc = Ключ шифрования для канала управления космическим движением.
+ent-BasePlantAnalyzer = анализатор растений
+    .desc = Карманное устройство, позволяющее сканировать семена и растения для получения детальной информации об их генах.
+ent-PlantAnalyzerEmpty = { ent-BasePlantAnalyzer }
+    .desc = { ent-BasePlantAnalyzer.desc }
+    .suffix = Пустой
+ent-PlantAnalyzerDebug = { ent-BasePlantAnalyzer }
+    .desc = { ent-BasePlantAnalyzer.desc }
+    .suffix = Отладка
+ent-PlantAnalyzer = { ent-BasePlantAnalyzer }
+    .desc = { ent-BasePlantAnalyzer.desc }

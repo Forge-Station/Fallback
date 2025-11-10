@@ -1,0 +1,10 @@
+ent-Autodoc = автодок Марк.XIV
+    .desc = Программируемый робот-хирург, способный автоматически оперировать пациентов.
+ent-AutodocSyndie = { ent-Autodoc }
+    .desc = { ent-Autodoc.desc }
+    .suffix = Синдикат
+ent-OmnimedToolAutodoc = { ent-OmnimedTool }
+    .desc = { ent-OmnimedTool.desc }
+    .suffix = Unremoveable
+ent-MedicalBiofabricator = медицинский биофабрикатор
+    .desc = Производит органы и другие органические вещества, которые могут быть хирургическим путем пересажены пациентам из биомассы.

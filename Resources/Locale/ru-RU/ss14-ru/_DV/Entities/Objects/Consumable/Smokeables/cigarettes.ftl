@@ -1,0 +1,16 @@
+ent-CigCartonPurple = коробка De Jure
+    .desc = Коробка, содержащая 6 пачек De Jure.
+ent-CigCartonCandy = коробка Sugar Rush
+    .desc = Коробка, содержащая 6 пачек Sugar Rush.
+ent-CigCartonSyndicate = коробка Interdyne Herbals
+    .desc = Коробка, содержащая 6 пачек Interdynes, плюс эксклюзивное фишко.
+ent-CigaretteOlive = { ent-Cigarette }
+    .desc = Рулон табака и никотина, пропитанный каким-то химикатом, пахнет оливками.
+    .suffix = оливковая
+ent-CigaretteCandy = { ent-FoodBase }
+    .desc = Сахарные палочки, разработанные так, чтобы выглядеть как рулон никотина и табака.
+    .suffix = конфетная
+ent-CigPackPurple = пачка De Jure
+    .desc = Ваше божественное право курить. По вкусу как оливки и фальшивое золото.
+ent-CigPackCandy = пачка Sugar Rush
+    .desc = Она подслащённая!

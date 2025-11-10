@@ -1,0 +1,9 @@
+ent-AirlockMailLocked = { ent-AirlockCargo }
+    .desc = { ent-AirlockCargo.desc }
+    .suffix = Почта, Заперто
+ent-AirlockMailGlassLocked = { ent-AirlockCargoGlass }
+    .desc = { ent-AirlockCargoGlass.desc }
+    .suffix = Почта, Заперто
+ent-AirlockMaintMailLocked = { ent-AirlockMaint }
+    .desc = { ent-AirlockMaint.desc }
+    .suffix = Почта, Заперто

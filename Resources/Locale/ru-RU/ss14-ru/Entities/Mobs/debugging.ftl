@@ -1,0 +1,9 @@
+ent-MobDebugCounter = счётчик отладки
+    .desc = Умеет считать
+    .suffix = AI, DEBUG
+ent-MobDebugRandomCounter = счётчик случайной отладки
+    .desc = Умеет рандомизировать
+    .suffix = AI, DEBUG
+ent-MobDebugRandomLess = отладка случайный меньше
+    .desc = Умеет уменьшать
+    .suffix = AI, DEBUG

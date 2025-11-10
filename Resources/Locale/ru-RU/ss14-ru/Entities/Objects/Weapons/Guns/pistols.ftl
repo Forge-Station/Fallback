@@ -1,0 +1,16 @@
+ent-BaseWeaponPistol = BasePistol
+    .desc = Дерзай — налетай, целься и стреляй.
+ent-WeaponPistolEchis = Эфа
+    .desc = Гадюка для боргов. На ходу создаёт патроны калибра .35 из встроенного самозарядного фабрикатора боеприпасов.
+ent-WeaponPistolCobra = Кобра
+    .desc = Пистолет суровых робастных агентов, с интегрированным глушителем. Использует патроны калибра .25 безгильзовый.
+ent-WeaponPistolMk58 = МК 58
+    .desc = Дешёвый и распространённый пистолет, производимый дочерней компанией Nanotrasen. Использует патроны калибра .35 авто.
+ent-WeaponPistolMk58Nonlethal = { ent-WeaponPistolMk58 }
+    .desc = { ent-WeaponPistolMk58.desc }
+    .suffix = Non-lethal
+ent-WeaponPistolN1984 = N1984
+    .desc = Запасное оружие любого уважающего себя офицера. Выпускается в калибре .45 магнум, самом богоугодном калибре.
+ent-WeaponPistolN1984Nonlethal = N1984
+    .desc = { ent-WeaponPistolN1984.desc }
+    .suffix = Non-lethal

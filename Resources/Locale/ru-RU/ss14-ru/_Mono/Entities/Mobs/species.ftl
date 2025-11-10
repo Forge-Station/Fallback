@@ -1,0 +1,10 @@
+ent-BaseMobAsakim = Урист МакАсаким
+    .desc = { ent-BaseMobSpeciesOrganic.desc }
+ent-MobAsakim = Урист МакАсаким
+    .desc = { ent-BaseMobAsakim.desc }
+    .suffix = Уrisst' МзАсаким
+ent-MobAsakimRandom = Урист МакАсаким
+    .desc = { ent-BaseMobAsakim.desc }
+    .suffix = Случайная внешность
+ent-MobAsakimDummy = { ent-BaseSpeciesDummy }
+    .desc = Манекен асаким, предназначенный для использования в настройке персонажа.

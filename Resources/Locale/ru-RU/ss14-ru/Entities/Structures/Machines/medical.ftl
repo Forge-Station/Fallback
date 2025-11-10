@@ -1,0 +1,16 @@
+ent-BiomassReclaimer = переработчик биомассы
+    .desc = Извлекает биомассу из трупов. Ужасно.
+ent-MachineElectrolysisUnit = электролизная установка
+    .desc = Технологическая новинка в области медицинских ударов током.
+ent-MachineCentrifuge = настольная центрифуга
+    .desc = Карусель, карусель...
+ent-CryoPod = криокапсула
+    .desc = Специальный агрегат, создающий безопасную среду для применения химикатов, работающих в условиях низких температур.
+ent-DiseaseDiagnoser = диагностировщик заболеваний Дельта Экстрим
+    .desc = Машина, анализирующая пробы на наличие заболеваний.
+ent-DiagnosisReportPaper = отчёт диагностировщика заболеваний
+    .desc = Леденящая душу медицинская справка.
+ent-Vaccinator = Вакцинатор
+    .desc = Машина для создания вакцин.
+ent-BaseTabletopChemicalMachine = { ent-SmallConstructibleMachine }
+    .desc = { ent-SmallConstructibleMachine.desc }

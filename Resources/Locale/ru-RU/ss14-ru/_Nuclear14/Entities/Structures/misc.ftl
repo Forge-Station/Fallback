@@ -1,0 +1,16 @@
+ent-N14FloraDesertCactus = кактус
+    .desc = Какая-то пустынная флора.
+ent-N14FloraDesertTree1 = дерево Джошуа
+    .desc = Дерево Джошуа.
+ent-N14FloraTreeBald = лысое дерево
+    .desc = Что? Даже деревья лысеют.
+ent-N14FloraTreePine = сосна
+    .desc = У него почти подавляющий аромат.
+ent-N14FloraTreeDead1 = мёртвое дерево
+    .desc = Мёртвое воспоминание о дереве.
+ent-N14FloraDesertTree2 = { ent-N14FloraDesertTree1 }
+    .desc = { ent-N14FloraDesertTree1.desc }
+ent-N14FloraDesertTree3 = { ent-N14FloraDesertTree1 }
+    .desc = { ent-N14FloraDesertTree1.desc }
+ent-N14FloraDesertTree4 = { ent-N14FloraDesertTree1 }
+    .desc = { ent-N14FloraDesertTree1.desc }

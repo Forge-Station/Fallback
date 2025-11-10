@@ -10,7 +10,8 @@
   skinColoration: Hues
   maleFirstNames: NamesFeroxiFirstMale
   femaleFirstNames: NamesFeroxiFirstFemale
-  lastNames: NamesFeroxiLast
+  maleLastNames: NamesFeroxiLast # Corvax-LastnameGender
+  femaleLastNames: NamesFeroxiLast # Corvax-LastnameGender
 
 - type: speciesBaseSprites
   id: MobFeroxiSprites

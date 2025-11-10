@@ -10,7 +10,8 @@
   skinColoration: Hues
   maleFirstNames: NamesRodentiaMale
   femaleFirstNames: NamesRodentiaFemale
-  lastNames: NamesRodentiaLast
+  maleLastNames: NamesRodentiaLast # Corvax-LastnameGender
+  femaleLastNames: NamesRodentiaLast # Corvax-LastnameGender
   naming: LastFirst
   baseScale: "0.8, 0.8"
   minHeight: 0.95

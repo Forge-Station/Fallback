@@ -1,0 +1,14 @@
+ent-StunbatonSelfCharging = { ent-Stunbaton }
+    .desc = { ent-Stunbaton.desc }
+    .suffix = Не маппить, Перезаряжающийся, Киборг
+ent-FlashRecharging = { ent-Flash }
+    .desc = { ent-Flash.desc }
+    .suffix = Не маппить, Перезаряжающийся, Киборг
+ent-FlashlightSecliteRecharging = секлайт
+    .desc = Надёжный фонарик, используемый охраной.
+    .suffix = Не маппить, Перезаряжающийся
+ent-WoodBaton = нелетальная деревянная дубинка
+    .desc = Во-первых, не совершай преступления.
+ent-HoloprojectorSecurityRecharging = { ent-HoloprojectorSecurity }
+    .desc = { ent-HoloprojectorSecurity.desc }
+    .suffix = Перезаряжающийся, Не маппить

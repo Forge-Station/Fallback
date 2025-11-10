@@ -1,0 +1,16 @@
+steal-target-groups-plutonium-core = плутониевое ядро
+steal-target-groups-lucky-bill = счастливая купюра офицера логистики
+steal-target-groups-ian-dossier = фотоальбом главы персонала
+steal-target-groups-secret-documents = секретные документы
+steal-target-groups-x01 = многофазный энергетический пистолет x-01
+steal-target-groups-notary-stamp = нотариальная печать
+steal-target-groups-silvia = Сильвия
+steal-target-groups-box-folder-rd-clipboard = исследовательский планшет
+steal-target-groups-bible-mystagogue = книга тайн
+steal-target-groups-recruiter-pen = ручка вербовщика
+steal-target-groups-captains-cloak = мантия капитана
+steal-target-groups-engineering-techfab-circuitboard = плата инженерного ТехФаба
+steal-target-groups-logistics-techfab-circuitboard = плата логистического ТехФаба
+steal-target-groups-service-techfab-circuitboard = плата сервисного ТехФаба
+steal-target-groups-epistemics-techfab-circuitboard = плата эпистемического ТехФаба
+steal-target-groups-hardsuit-rhino = скафандр офицера логистики

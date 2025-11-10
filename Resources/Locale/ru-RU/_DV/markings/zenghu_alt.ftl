@@ -1,0 +1,10 @@
+marking-CyberLimbsMarkingZenghuHeadAlt = Альтернативная голова от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuChestAlt = Альтернативный роботический корпус от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuRHandAlt = Альтернативная правая роботическая кисть от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuRArmAlt = Альтернативная правая роботическая рука от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuLHandAlt = Альтернативная левая роботическая кисть от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuLArmAlt = Альтернативная левая роботическая рука от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuRLegAlt = Альтернативная правая роботическая нога от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuRFootAlt = Альтернативная правая роботическая стопа от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuLLegAlt = Альтернативная левая роботическая нога от Zenghu Pharmaceuticals
+marking-CyberLimbsMarkingZenghuLFootAlt = Альтернативная левая роботическая стопа от Zenghu Pharmaceuticals

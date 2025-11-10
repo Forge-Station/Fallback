@@ -1,0 +1,11 @@
+ent-BlueLightTube = синяя лампа
+    .desc = Энергоэффективная лампа средней мощности, напоминающая о космосе. Может содержать ртуть.
+ent-LightBulbMaintenance = лампа накаливания
+    .desc = Тусклая лампочка.
+    .suffix = Maintenance
+ent-ColoredLightTubeRed = красная лампа
+    .desc = Цветная лампа. Излучает красный оттенок.
+ent-ColoredLightTubeFrostyBlue = синяя лампа
+    .desc = Цветная лампа. Излучает морозно-синий оттенок.
+ent-ColoredLightTubeBlackLight = чёрная лампа
+    .desc = Цветная лампа. Излучает "чёрный свет".

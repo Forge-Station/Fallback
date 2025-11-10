@@ -1,0 +1,3 @@
+prayer-verbs-fountainwish = Загадать желание
+prayer-chat-notify-fountainwish = ЖЕЛАНИЕ У ФОНТАНА
+prayer-popup-notify-fountainwish-sent = Вы бросили монетку в фонтан и загадали желание...

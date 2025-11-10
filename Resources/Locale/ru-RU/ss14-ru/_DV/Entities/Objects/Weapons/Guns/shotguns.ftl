@@ -1,0 +1,10 @@
+ent-WeaponShotgunAdjutant = адъютант
+    .desc = Продаваемый как "штурмовой" дробовик, этот дробовик имеет специальный газовый механизм, делающий его высокоэффективным для ближнего боя и подавляющего огня.
+ent-WeaponShotgunKammererNonLethal = { ent-WeaponShotgunKammerer }
+    .desc = { ent-WeaponShotgunKammerer.desc }
+    .suffix = Мешочек с дробью
+ent-WeaponRiotShotgunBorg = штурмовой дробовик борга
+    .desc = Сильно модифицированный дробовик для боргов, стреляющий патронами с мешочками дроби. Боеприпасы реплицируются со временем.
+ent-WeaponShotgunKammererIncendiary = { ent-WeaponShotgunKammerer }
+    .desc = { ent-WeaponShotgunKammerer.desc }
+    .suffix = Зажигательный

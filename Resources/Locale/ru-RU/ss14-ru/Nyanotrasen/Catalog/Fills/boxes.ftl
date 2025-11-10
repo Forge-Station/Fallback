@@ -1,0 +1,14 @@
+ent-BoxMagazineUniversalMagnum = коробка магазинов .45 magnum Universal
+    .desc = Коробка, полная магазинов .45 magnum.
+ent-BoxMagazineUniversalMagnumPractice = коробка магазинов .45 magnum Universal (учебные)
+    .desc = Коробка, полная учебных магазинов .45 magnum.
+ent-BoxMagazineUniversalMagnumRubber = коробка магазинов .45 magnum Universal (резиновые)
+    .desc = Коробка, полная резиновых магазинов .45 magnum.
+ent-BoxSpeedLoaderLightRifle = коробка спидлоадеров .30 rifle
+    .desc = Коробка, полная спидлоадеров .30 rifle.
+ent-BoxColoredLighttube = коробка цветных ламп
+    .desc = Эта коробка сформирована изнутри таким образом, чтобы в неё помещались только лампы и лампочки.
+ent-BoxMaintenanceLightbulb = коробка технических лампочек
+    .desc = Эта коробка сформирована изнутри таким образом, чтобы в неё помещались только лампы и лампочки.
+ent-BoxHolyWater = набор для святой воды
+    .desc = Эта коробка наполнена всем необходимым для изготовления домашней святой воды. Вода не входит в комплект.

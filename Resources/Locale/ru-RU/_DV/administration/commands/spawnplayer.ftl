@@ -1,0 +1,10 @@
+cmd-spawnplayer-desc = Создаёт выбранного игрока как его текущего персонажа на позиции АДМИНА.
+cmd-spawnplayer-help = Использование: spawnplayer [player_name] [job_id] [transfer_mind?]
+cmd-spawnplayer-complete = Персонаж игрока создан.
+cmd-spawnplayer-arg-player = [имя игрока]
+cmd-spawnplayer-arg-job = [id должности]
+cmd-spawnplayer-arg-transfer-mind = [перенос разума? (по умолчанию: false)]
+cmd-spawnplayer-error-player = Игрок '{$player}' не найден.
+cmd-spawnplayer-error-job = Должность недействительна или не указана. По умолчанию - пассажир.
+cmd-spawnplayer-error-args = Недостаточно аргументов.
+cmd-spawnplayer-info-mind-not-transferred = Разум не перенесён. Чтобы перенести разум, выполните 'setmind {$entId} {$player}'

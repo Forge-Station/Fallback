@@ -1,0 +1,16 @@
+ent-VirtualBeamEntityController = СУЩНОСТЬ ЛУЧА ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ ЭТОГО
+    .desc = { "" }
+ent-StrippingHiddenEntity = Спрятанный предмет
+    .desc = В этом кармане что-то есть.
+ent-VirtualItem = ВИРТУАЛЬНЫЙ ПРЕДМЕТ, КОТОРЫЙ ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ
+    .desc = { "" }
+ent-VirtualElectrocutionLoadHVPower = { ent-VirtualElectrocutionLoadBase }
+    .desc = { ent-VirtualElectrocutionLoadBase.desc }
+ent-VirtualElectrocutionLoadMVPower = { ent-VirtualElectrocutionLoadBase }
+    .desc = { ent-VirtualElectrocutionLoadBase.desc }
+ent-VirtualElectrocutionLoadApc = { ent-VirtualElectrocutionLoadBase }
+    .desc = { ent-VirtualElectrocutionLoadBase.desc }
+ent-VirtualElectrocutionLoadBase = { "" }
+    .desc = { "" }
+ent-TetherEntity = { "" }
+    .desc = { "" }

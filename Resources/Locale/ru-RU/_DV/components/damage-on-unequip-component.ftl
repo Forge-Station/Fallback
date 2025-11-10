@@ -1,0 +1,3 @@
+damage-on-unequip-examine = [color=red]Вы чувствуете, что снимать это - плохая идея...[/color]
+damage-on-unequip-begin = {$item} начинает скрипеть и стонать...
+damage-on-unequip-finish = {$item} срывается с тела {$wearer}!

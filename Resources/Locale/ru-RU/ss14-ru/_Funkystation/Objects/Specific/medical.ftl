@@ -1,0 +1,12 @@
+ent-SyringeRevivopine = { ent-PrefilledSyringe }
+    .desc = { ent-PrefilledSyringe.desc }
+    .suffix = ревивопин
+ent-PillGranibitulari = таблетка
+    .desc = { ent-Pill.desc }
+    .suffix = гранибитулари 20u
+ent-PillCanisterGranibitulari = баночка с таблетками
+    .desc = { ent-PillCanister.desc }
+    .suffix = гранибитулари 15u
+ent-SyringeConvermol = { ent-PrefilledSyringe }
+    .desc = { ent-PrefilledSyringe.desc }
+    .suffix = конвермол

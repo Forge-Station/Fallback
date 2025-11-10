@@ -1,0 +1,9 @@
+id-card-access-level-orders = Заказы
+id-card-access-level-mantis = Метапсионик
+id-card-access-level-chief-justice = Магистрат
+id-card-access-level-prosecutor = Прокурор
+id-card-access-level-clerk = Делопроизводитель
+id-card-access-level-justice = Судья
+id-card-access-level-corpsman = Бригмедик
+id-card-access-level-robotics = Робототехника
+id-card-access-level-surgery = Хирургия
